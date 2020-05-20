@@ -1,0 +1,282 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: oblique;
+  background-color: #ececeb;
+  position: relative;
+}
+
+
+#authentication-wrapper {
+  padding-top:200px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #ececeb;
+}
+
+
+
+
+.languages {
+
+align-self: auto;
+
+}
+
+p {
+  font-size: 17px
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  /* medida das letras*/
+  font-weight: bold;
+  background-color: ;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+/* a funcao rem faz com que nao exista interferencias entre fontes sizes*/
+h1 {
+  font-family: "sacramento";
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: "montserrat", sans-serif;
+  padding-bottom: 10px;
+  margin: 100px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+  /*change all paragraphes for 2 lines between each text*/
+  color: 8f8f8f;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+a {
+  color: #11999E;
+  font-family: "montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  /*this avoids underline on hiperlinks*/
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+/* a it anchor tags that give the links on the bottom of the page*/
+.top-container {
+  background-color: #dff6f0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px;
+  /*this is given a space between top and bottom container*/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /*diz override the text in the body*/
+}
+
+/* left and right 100px auto */
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.animation {
+  /* i deleted from html*/
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
+}
+
+.title-image {
+  width: 60%;
+  /*isto faz com que a imagem fica a 60% neste caso*/
+  transform: rotate(0deg);
+  /*isto faz a imagem rodar 25 graus na positiva,tb se pode usar na negativa - ,  https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate/
+https://codepen.io/pedroiki/pen/WNbGzPE */
+  /* fechar sempre bem os comentarios */
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  /*this gives a margin between the pictures and the text*/
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.about-me {
+  clear: left;
+  /* this put the text above the image*/
+}
+
+.my-background {
+  clear: right;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro-page {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+  /*top , right ,left , creat space outside the page */
+}
+
+.copy-right {
+  /*try to check why is not working*/
+  color: grey;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #51F6E6;
+  background-image: -webkit-linear-gradient(top, #51F6E6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #51F6E6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #51F6E6, #1E62D0);
+  background-image: -o-linear-gradient(top, #51F6E6, #1E62D0);
+  background-image: linear-gradient(to bottom, #51F6E6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 8px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #6E8744;
+  background-image: -webkit-linear-gradient(top, #6E8744, #3D94F6);
+  background-image: -moz-linear-gradient(top, #6E8744, #3D94F6);
+  background-image: -ms-linear-gradient(top, #6E8744, #3D94F6);
+  background-image: -o-linear-gradient(top, #6E8744, #3D94F6);
+  background-image: linear-gradient(to bottom, #6E8744, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#nav-brand {
+  background-color: #66BFBF;
+}
+
+#nave-mobile {
+  background-color: #66BFBF;
+}
+
+#intro {}
+
+#general-info {}
+
+#skills {
+  /* bug is not working find the solution for background color*/
+  background-color: #66BFBF;
+  color: #66BFBF;
+}
+
+
+#whatsapp {}
+
+
+
+
+
+.contact-message {
+  color: #66BFBF;
+}
+
+/*  isto vai permitir passar o botao nav do boostrap para a direita*/
+.btn-right {
+    text-align: right !important;
+}
+
+
+.image-container{                 /* caixa aonde fica a imagem dentro*/
+
+  margin: 10px;
+
+}
+
+.projects  {                     /* aonde fica as caixinhas com os projectos*/
+  display:flex;                  /* poem tudo em uma linha*/
+  padding: 30px 300px;
+  justify-content: center;            /* disposicao dos elementos*/
+  flex-wrap: wrap;              /* faz mudar de linha, para a linha de baixo */
+}
+
+.project-image{                 /* a propria imagem */
+height: 300px;
+width: 300px;
+
+
+}
+
+.project-image:hover  {                 /* a propria imagem */
+opacity: 0.5;
+
+
+}
